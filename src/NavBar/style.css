@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #2C3E50 !important;
+}
+a{
+    color: white !important;
+    font-size: larger;
+    font-weight: bolder !important;
+}
+.start{
+    font-size: 2rem;
+}

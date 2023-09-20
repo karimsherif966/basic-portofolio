@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -28,6 +29,68 @@
   color: #61dafb;
 }
 
+.line{
+  height: 4px;
+  width: 80px;
+  background-color: white;
+  margin-top: 5px;
+}
+.portofolio-title{
+  color: #2C3E50;
+}
+.portofolio .line, .contact .line{
+  background-color: #2C3E50;
+}
+.layout{
+  background-color: #2AB196;
+  opacity: 90%;
+  transition: 1s ease !important;
+  
+}
+
+
+
+.fa-plus{
+  font-size: 100px;
+}
+.portofolio-card{
+  cursor: pointer;
+  transition: 1s;
+}
+.form-control{
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  margin:auto
+}
+.form-control:focus{
+  box-shadow: none !important;
+  border-color: #dee2e6!important;
+}
+.inputs{
+  width: 60%;
+  margin: auto;
+}
+.contact .btn{
+  width: 100px;
+}
+label{
+  margin-bottom: -3rem;
+  color: green;
+  font-weight: bold;
+  transition: 0.5s ease-in-out ;
+}
+.down{
+  margin-bottom:-5rem ;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.288);
+  height: 100vh;
+  width: 100%;
+}
+.overlay img{
+  width: 40%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
